@@ -1,0 +1,199 @@
+/*  Rob's web page special css  */
+
+
+/* page layout sections & specifications */
+
+body {
+          width: 1200px;
+          background-color: white;
+}
+
+header {
+          height: 400px;
+          width: 100%;
+          background-color: #fccb1a;
+}
+
+
+/*  Sections Background colors  */
+
+#work {
+          height: 900px;
+          width: 100%;
+          background: url('../img/arrow.jpg') no-repeat;
+}
+
+#review {
+          height: 600px;
+          width: 100%;
+          background-color: #3214b8;
+}
+
+#contact {
+          height: 350px;
+          width: 100%;
+}
+
+footer {
+          height: 50px;
+          width: 100%;
+          background-color: #110934;
+}
+
+/*  page setup sizes  */
+
+.clear-fix {
+          clear: both;
+          width: 100%;
+}
+
+.full-width {
+          width: 1200px;
+          margin: 0px 0px 0px 0px;
+}
+
+.half-width {
+          width: 580px;
+          float: left;
+          padding-left: 10px;
+}
+
+.half-width-img {
+          width: 500px;
+          float: left;
+          padding-top: 35px;
+}
+
+.third-width {
+          width: 350px;
+          float: left;
+          padding-top: 45px;
+          padding-bottom: 100px;
+}
+
+.fourth-width {
+          width: 300px;
+          float: left;
+}
+
+.container-full {
+          height: 150px;
+          width: 1000px;
+          margin: 325px 0px 0px 100px;
+}
+
+.container-half {
+          height: 200px;
+          width: 500px;
+          margin: 0px 0px 0px 50px;
+}
+
+/*  Padding Sections  */
+
+#name {
+          padding-left: 50px;
+}
+
+#logo {
+          float:right;
+          padding-top: 55px;
+          padding-right: 120px;
+          padding-bottom: 30px;
+          padding-left: 0px;
+}
+
+#name, #logo {
+          display: inline-block;
+}
+
+#heading {
+          padding-top: 25px;
+}
+
+#samples {
+          padding-left: 100px;
+}
+
+#samples2 {
+          padding-left: 95px;
+}
+
+#samples3 {
+          padding-left: 20px;
+}
+
+
+/*  Fonts  */
+
+h1 {
+          font-family: 'Slabo 27px', serif;
+          color: #110934;
+          font-size: 45px;
+          float: left;
+          font-variant:normal;
+          text-transform: none;
+          font-weight: lighter;
+}
+
+h2, h2-review {
+          font-family: 'Kaushan Script', cursive;
+          color: #3214b8;
+          font-size: 50px;
+          text-transform: none;
+          font-variant:normal;
+          font-weight: normal;
+          padding-left: 100px;
+}
+
+h2-review {
+          color: #f7f0d4;
+          padding-left: 100px;
+          padding-top: 15px;
+}
+
+
+h3 {
+          font-family: 'Great Vibes', cursive;
+          color: #110934;
+          font-size: 60px;
+          font-style: italic;
+          font-weight:lighter;
+          text-align: center;
+          padding-top: 30px;
+          text-transform: none;
+}
+
+h4 {
+          font-family: 'Slabo 27px', serif;
+          color: #110934;
+          font-size: 36px;
+          padding-left: 50px;
+          float:left;
+}
+
+h5 {
+          font-family: optima, sans-serif;
+          color: #f7f0d4;
+          font-size: 18px;
+          text-transform: none;
+          font-weight: lighter;
+          line-height: 32px;
+}
+
+h6 {
+          font-family: arial, sans-serif;
+          color: #f7f0d4;
+          font-size: 12px;
+          text-align: right;
+          padding: 18px 200px 0px 0px;
+}
+
+p {
+          font-family: optima, sans-serif;
+          color: #3214b8;
+          font-size: 25px;
+}
+
+#standout {
+          color: #fccb1a;
+}
