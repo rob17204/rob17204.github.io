@@ -199,3 +199,8 @@ header h2 span {
   font-size: 32px;
   padding-right: 48px;
 }
+
+footer p {
+          font-size: 12px;
+          padding-left: 30px;
+}
