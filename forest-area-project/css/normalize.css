@@ -24,8 +24,8 @@ header {
 
 /* section alignments */
 
-#samples {
-    padding: 10px 5px 10px 5px;
+#links {
+    align: center;
 }
 
 #aboutme {
@@ -44,10 +44,12 @@ header {
 /*  image with text overlays  */
 
 #container {
-  height: 400px;
-  width: 400px;
+  height: auto;
+  width: 1200px;
   position: relative;
+  text-align: center;
 }
+
 #image {
   position: absolute;
   left: 0;
@@ -76,6 +78,7 @@ header {
 .full-width {
     width: 1200px;
     margin: 0px auto;
+    display: inline-block;
 }
 
 .half-width, .third-width {
@@ -99,6 +102,7 @@ header {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
+    text-transform: capitalize;
     display: inline-block;
     font-size: 25px;
     border-radius: 35px;
@@ -111,6 +115,7 @@ header {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
+    text-transform: capitalize;
     display: inline-block;
     font-size: 25px;
     border-radius: 35px;
@@ -123,6 +128,7 @@ header {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
+    text-transform: capitalize;
     display: inline-block;
     font-size: 25px;
     border-radius: 35px;
@@ -135,6 +141,7 @@ header {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
+    text-transform: capitalize;
     display: inline-block;
     font-size: 25px;
     border-radius: 35px;
