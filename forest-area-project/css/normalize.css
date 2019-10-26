@@ -1,4 +1,4 @@
-/* Robert Schuster CSS profiles */
+/* Robert Schuster Web Design CSS profiles */
 
 /* page top */
 
@@ -10,7 +10,7 @@ body {
 header {
     height: 400px;
     width: 1200px;
-	  background: #FDDC22;
+	  background: url('img/AdobeStock_88686178_Preview.jpeg') no-repeat #ffffff;
     overflow: auto;
 
 }

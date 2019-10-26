@@ -9,7 +9,7 @@ a, h1, h2, h3, h5 {
 }
 
 
-a, h1, h2, h4, #fancy-type {
+a, h1, h2, h4 {
     color:#77a466;
 }
 
@@ -41,7 +41,9 @@ h1 {
 
 
 h2 {
-    font-size: 18px;
+    font-size: 25px;
+    color: yellow;
+    float: right;
 }
 
 
@@ -64,13 +66,6 @@ h5 {
 
 
 
-#fancy-type {
-      font-family: 'Dancing Script', cursive;
-      font-style: italic;
-      font-weight: bold;
-      font-size: 18px;
-      text-transform: lowercase;
-}
 
 
 /* the following will make the black type  */
