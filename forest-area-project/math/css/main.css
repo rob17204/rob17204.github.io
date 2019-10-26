@@ -50,8 +50,10 @@ h2 {
 
 
 h3 {
-    font-size: 12px;
-
+    font-size: 35px;
+    color: black;
+    float: left;
+    text-transform: capitalize;
 }
 
 
