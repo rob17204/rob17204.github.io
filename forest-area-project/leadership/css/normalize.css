@@ -49,6 +49,19 @@ header {
   text-align: center;
 }
 
+#container2 {
+  height: auto;
+  width: 400px;
+  position: relative;
+  text-align: center;
+  border-style: solid;
+  border-color: green;
+  border-radius: 25px;
+  margin-top: 55px;
+  padding-bottom: 10px;
+}
+
+
 #image {
   position: absolute;
   left: 0;
@@ -94,9 +107,13 @@ header {
 
 /* button styles */
 
-.button1 {
-    background: url('../img/mathbutton.jpg') no-repeat;
-    border: 2px solid green;
+ul {
+  list-style-type: none;
+}
+
+.button {
+    background: green;
+    border: 2px solid gold;
     color: black;
     padding: 15px 32px;
     text-align: center;
@@ -106,6 +123,27 @@ header {
     font-size: 25px;
     border-radius: 35px;
 }
+
+.button1 {
+    background: #F5F5F5;
+    border: 2px solid green;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 35px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+.button1:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
 
 .button2 {
     background: url('../img/leadershipbutton.jpg') no-repeat;
@@ -146,6 +184,65 @@ header {
     border-radius: 35px;
 }
 
-ul {
-  list-style-type: none;
+/* email form  */
+
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all label have the same size and are properly align */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  /* To make sure that all text field have the same font settings
+     By default, textarea are set with a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text field */
+  width: 300px;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+  border-radius: 15px;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highligh on active elements */
+  border-color: green;
+}
+
+textarea {
+  /* To properly align multiline text field with their label */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+
+  /* To allow users to resize any textarea vertically
+     It works only on Chrome, Firefox and Safari */
+  resize: vertical;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent the same space as the space between
+     the labels and their text fields */
+  margin-left: .5em;
 }

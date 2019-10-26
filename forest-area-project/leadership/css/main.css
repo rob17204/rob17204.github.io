@@ -21,7 +21,7 @@ h4, p {
 
 
 p  {
-    font-size: 16px;
+    font-size: 10px;
     line-height:150%;
 }
 
@@ -50,13 +50,18 @@ h2 {
 
 
 h3 {
-    font-size: 12px;
-
+    font-size: 35px;
+    color: black;
+    padding-left: 35px;
+    padding-top: 65px;
+    text-transform: capitalize;
 }
 
 
 h4 {
-    font-size: 16px;
+    font-size: 28px;
+    color: green;
+    text-decoration: underline;
 }
 
 
@@ -140,24 +145,6 @@ h5 {
 
 /*  borders for main photo & content section */
 
-#fancy-photo {
-   border-top:3px solid green;
-   border-bottom:3px solid green;
-   margin-left:20px;
-}
-
-
-#fancy-border, #fancy-border-center, #fancy-border-right {
-   border-top:1px solid #dedbdc;
-   border-bottom:1px solid #dedbdc;
-   height:180px;
-}
-
-
-#fancy-border-center {
-   border-left:1px solid #dedbdc;
-   border-right:1px solid #dedbdc;
-}
 
 
 #top-div, #photo-div, #content-div, #bottom-div {
