@@ -93,9 +93,9 @@ header {
 /* button styles */
 
 .button1 {
-    background-image: url('img/mathbutton.jpg') no-repeat;
+    background: url('../img/mathbutton.jpg') no-repeat;
     border: 2px solid blue;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -105,7 +105,7 @@ header {
 }
 
 .button2 {
-    background-image: url('img/leadershipbutton.jpg') no-repeat;
+    background: url('../img/leadershipbutton.jpg') no-repeat;
     border: 2px solid blue;
     color: white;
     padding: 15px 32px;
@@ -117,7 +117,7 @@ header {
 }
 
 .button3 {
-    background-image: url('./img/musicbutton.jpg') no-repeat;
+    background: url('../img/musicbutton.jpg') no-repeat;
     border: 2px solid blue;
     color: white;
     padding: 15px 32px;
@@ -129,7 +129,7 @@ header {
 }
 
 .button4 {
-    background-image:  url('./img/aboutbutton.jpg') no-repeat;
+    background:  url('../img/aboutbutton.jpg') no-repeat;
     border: 2px solid blue;
     color: white;
     padding: 15px 32px;
