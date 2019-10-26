@@ -49,6 +49,19 @@ header {
   text-align: center;
 }
 
+#container2 {
+  height: auto;
+  width: 400px;
+  position: relative;
+  text-align: center;
+  border-style: solid;
+  border-color: green;
+  border-radius: 25px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+
 #image {
   position: absolute;
   left: 0;
@@ -115,7 +128,7 @@ ul {
     background: url('../img/mathbutton.jpg') no-repeat;
     border: 2px solid green;
     color: black;
-    padding: 15px 32px;
+    padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     text-transform: capitalize;
@@ -164,6 +177,7 @@ ul {
 }
 
 /* email form  */
+
 form {
   /* Just to center the form on the page */
   margin: 0 auto;
@@ -194,7 +208,7 @@ input, textarea {
 
   /* To harmonize the look & feel of text field border */
   border: 1px solid #999;
-  border-radius: 35px;
+  border-radius: 15px;
 }
 
 input:focus, textarea:focus {

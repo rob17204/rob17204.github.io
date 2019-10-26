@@ -21,7 +21,7 @@ h4, p {
 
 
 p  {
-    font-size: 16px;
+    font-size: 10px;
     line-height:150%;
 }
 
@@ -52,7 +52,8 @@ h2 {
 h3 {
     font-size: 35px;
     color: black;
-    float: left;
+    padding-left: 35px;
+    padding-top: 65px;
     text-transform: capitalize;
 }
 
