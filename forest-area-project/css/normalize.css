@@ -9,9 +9,9 @@ body {
 }
 
 header {
-    height: 400px;
-    width: 1100px;
-	  background: url('img/AdobeStock_88686178_Preview.jpeg') no-repeat;
+    height: 350px;
+    width: 1200px;
+	  background: url('img/hero.jpeg') no-repeat;
     overflow: auto;
 
 }
@@ -95,12 +95,6 @@ header {
     width: 400px;
 }
 
-.full-width-special {
-    width: 1200px;
-    background: url('img/AdobeStock_88686178_Preview.jpeg') no-repeat;
-    height: 1200px;
-    width: 100%;
-}
 
 #button {
       float: middle;
