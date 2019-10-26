@@ -1,4 +1,4 @@
-/*  Rogue Pickings CSS Styles  */
+/*  FA Schools music math leadership  CSS Styles  */
 
 /* fonts section. */
 
@@ -9,7 +9,7 @@ a, h1, h2, h3, h5 {
 }
 
 
-a, h1, h2, h4 {
+a, h1, h4 {
     color:#77a466;
 }
 
@@ -45,6 +45,7 @@ h2 {
     color: yellow;
     float: right;
     text-transform: capitalize;
+    margin-top: 25px;
 }
 
 
