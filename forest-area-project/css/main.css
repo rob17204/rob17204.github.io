@@ -44,6 +44,7 @@ h2 {
     font-size: 25px;
     color: yellow;
     float: right;
+    text-transform: capitalize;
 }
 
 
