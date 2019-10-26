@@ -1,0 +1,102 @@
+/* Robert Schuster CSS profiles */
+
+/* page top */
+
+body {
+      width: 1200px;
+      height: auto;
+}
+
+header {
+    height: 400px;
+    width: 1200px;
+	  background: #FDDC22;
+    overflow: auto;
+
+}
+
+.toplogo {
+    float: middle;
+    padding: 95px 315px 10px 40px;
+}
+
+.intro {
+    float:left;
+    height: 600px;
+}
+
+
+/* section alignments */
+
+#samples {
+    padding: 10px 5px 10px 5px;
+}
+
+#aboutme {
+    padding: 200px 0px 0px 0px;
+}
+
+#contactme {
+    padding: 100px 0px 0px 0px;
+}
+
+#contact {
+      background: #190934;
+      height: 100px;
+}
+
+/*  image with text overlays  */
+
+#container {
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+#image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 250px;
+  width: 350px;
+}
+#text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
+}
+
+/* div sizes */
+
+.clear-fix {
+    clear: both;
+    width:100%
+}
+/* Section Sizes  */
+
+.full-width {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.half-width, .third-width {
+    float: left;
+}
+
+.half-width {
+    width: 600px;
+}
+
+.third-width {
+    width: 400px;
+}
+
+.full-width-special {
+    width: 1200px;
+    background: url('../img/background2.jpg') no-repeat;
+    height: 1200px;
+    width: 100%;
+}
