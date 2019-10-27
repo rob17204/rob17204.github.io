@@ -61,6 +61,13 @@ header {
   padding-bottom: 10px;
 }
 
+#container3 {
+  height: auto;
+  width: 1200px;
+  position: relative;
+  text-align: center;
+  margin-top: 255px;
+}
 
 #image {
   position: absolute;
