@@ -20,9 +20,17 @@ h4, p {
 }
 
 
-p  {
-    font-size: 16px;
+p, p1 {
     line-height:150%;
+}
+
+p {
+    font-size: 25px;
+}
+
+p1 {
+  font-size: 10px;
+  padding-top: 160px;
 }
 
 
@@ -35,8 +43,11 @@ a {
 
 
 h1 {
-    font-size: 30px;
+    font-size: 35px;
     text-align:left;
+    color: white;
+    margin-top: 265px;
+    margin-left: 50px;
 }
 
 
@@ -50,13 +61,18 @@ h2 {
 
 
 h3 {
-    font-size: 12px;
-
+    font-size: 35px;
+    color: black;
+    padding-left: 35px;
+    padding-top: 65px;
+    text-transform: capitalize;
 }
 
 
 h4 {
-    font-size: 16px;
+    font-size: 28px;
+    color: green;
+    text-decoration: underline;
 }
 
 
@@ -68,14 +84,6 @@ h5 {
 
 
 
-
-
-/* the following will make the black type  */
-
-
-.enhance {
-    color: black;
-}
 
 
 /*  Column widths set-up  */
@@ -101,6 +109,7 @@ h5 {
     width:349px;
     padding:25px;
     height:180px;
+    margin-bottom: 75px;
 }
 
 
@@ -140,24 +149,6 @@ h5 {
 
 /*  borders for main photo & content section */
 
-#fancy-photo {
-   border-top:3px solid green;
-   border-bottom:3px solid green;
-   margin-left:20px;
-}
-
-
-#fancy-border, #fancy-border-center, #fancy-border-right {
-   border-top:1px solid #dedbdc;
-   border-bottom:1px solid #dedbdc;
-   height:180px;
-}
-
-
-#fancy-border-center {
-   border-left:1px solid #dedbdc;
-   border-right:1px solid #dedbdc;
-}
 
 
 #top-div, #photo-div, #content-div, #bottom-div {
