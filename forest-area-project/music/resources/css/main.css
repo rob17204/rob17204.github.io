@@ -33,6 +33,10 @@ p1 {
   padding-top: 160px;
 }
 
+p2 {
+  font-size: 14px;
+}
+
 
 a {
     font-size: 14px;
@@ -182,5 +186,5 @@ h5 {
 #footer-div {
    width:1200px;
    height:50px;
-   padding-top:10px;
+   padding-top:100px;
 }
