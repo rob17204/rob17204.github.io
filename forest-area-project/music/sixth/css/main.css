@@ -14,7 +14,7 @@ a, h1, h4 {
 }
 
 
-h4, p {
+h4, p, p1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
 }
@@ -24,13 +24,8 @@ p, p1 {
     line-height:150%;
 }
 
-p {
+p, p1 {
     font-size: 25px;
-}
-
-p1 {
-  font-size: 10px;
-  padding-top: 160px;
 }
 
 
