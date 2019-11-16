@@ -185,8 +185,7 @@ h5 {
 footer {
    width:1200px;
    height:50px;
-   padding-top:10px;
-   p {
-     font-size: 8px;
+   padding-top:150px;
+   font-size: 8px;
    }
 }

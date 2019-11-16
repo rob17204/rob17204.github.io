@@ -35,7 +35,7 @@ p1 {
 
 
 a {
-    font-size: 14px;
+    font-size: 10px;
     font-style: normal;
     text-decoration: none;
     margin-top:46px;
@@ -189,6 +189,5 @@ footer {
    width:1200px;
    height:50px;
    padding-top:70px;
-   p{ font-size: 10px;
-   }
+   font-size: 8px;
 }
