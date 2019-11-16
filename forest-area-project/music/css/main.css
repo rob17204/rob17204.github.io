@@ -184,3 +184,11 @@ h5 {
    height:50px;
    padding-top:10px;
 }
+
+footer {
+   width:1200px;
+   height:50px;
+   padding-top:10px;
+   p{ font-size: 10px;
+   }
+}
