@@ -89,7 +89,7 @@ h5 {
 }
 
 
-.half-width, .third-width {
+.half-width, .third-width, .two-third-width {
    float:left;
 }
 
@@ -107,7 +107,11 @@ h5 {
     margin-bottom: 75px;
 }
 
-
+.two-third-width {
+    width: 840px;
+    height: auto;
+    margin-bottom: 75px;
+}
 
 .sixth-width {
    float:right;
