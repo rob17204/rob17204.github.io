@@ -54,6 +54,7 @@ h3 {
     color: black;
     padding-left: 35px;
     padding-top: 65px;
+    text-shadow: 3px 3px 4px grey;
     text-transform: capitalize;
 }
 
