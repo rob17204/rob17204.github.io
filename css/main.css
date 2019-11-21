@@ -157,8 +157,12 @@ footer {
   padding: 0px 0px 30px 35px;
 }
 
-.trio {
+.trio, .trio-photo {
   width:25%;
+}
+
+.trio-photo {
+  padding: 150px 0px 0px 0px;
 }
 
 .two-trio {
@@ -225,12 +229,12 @@ h5 {
 h6 {
   font-family: sans-serif;
   font-style: normal;
-  font-weight: lighter;
+  font-weight: oblique;
   float: left;
   line-height: 28px;
   color: #090934;
-  font-size: 18px;
-  padding: 10px 20px 0px 50px;
+  font-size: 20px;
+  padding: 10px 20px 20px 50px;
 }
 
 h7 {
