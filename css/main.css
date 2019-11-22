@@ -82,7 +82,7 @@ header {
 
 .half-width-img {
   height: auto;
-  padding-top: 100px;
+  padding-top: 130px;
 }
 
 .half-width-img-small {
@@ -159,10 +159,11 @@ footer {
 
 .trio, .trio-photo {
   width:25%;
+  float: left;
 }
 
 .trio-photo {
-  padding: 150px 0px 0px 0px;
+  padding: 40px 0px 0px 0px;
 }
 
 .two-trio {
