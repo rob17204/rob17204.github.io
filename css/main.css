@@ -200,7 +200,7 @@ h2 {
   text-align: center;
 }
 
-h3 {
+h3-old {
   font-family: sans-serif;
   font-style: normal;
   font-weight: lighter;
@@ -210,6 +210,16 @@ h3 {
   padding: 12px 40px 0px 50px;
 }
 
+h3 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  float: left;
+  line-height: 24px;
+  color: #090934;
+  font-size: 18px;
+  padding: 0px 0px 15px 80px;
+}
 
 h4 {
   transform: rotate(-30deg);
@@ -238,16 +248,6 @@ h6 {
   padding: 0px 20px 20px 50px;
 }
 
-h7 {
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: lighter;
-  float: left;
-  line-height: 24px;
-  color: #090934;
-  font-size: 18px;
-  padding: 0px 0px 15px 80px;
-}
 
 p {
   font-family: inherit;
@@ -258,10 +258,6 @@ p {
   font-size: 10px;
 }
 
-
-p4 {
-  color: #090934;
-}
 
 
 #footer {
