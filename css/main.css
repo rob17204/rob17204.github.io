@@ -181,7 +181,7 @@ footer {
 /* Fonts */
 
 h1, h2, h4 {
-  font-family: cursive;
+  font-family: 'Kaushan Script', cursive;
   color: #090934;
 }
 
@@ -210,8 +210,10 @@ h3-old {
   padding: 12px 40px 0px 50px;
 }
 
+h3, h5, h6, p {
+  font-family: 'Sulphur Point', sans-serif;
+}
 h3 {
-  font-family: sans-serif;
   font-style: normal;
   font-weight: lighter;
   float: left;
@@ -227,7 +229,6 @@ h4 {
 }
 
 h5 {
-  font-family: sans-serif;
   font-style: normal;
   font-weight: lighter;
   float: left;
@@ -238,7 +239,6 @@ h5 {
 }
 
 h6 {
-  font-family: sans-serif;
   font-style: normal;
   font-weight: lighter;
   float: left;
@@ -250,7 +250,6 @@ h6 {
 
 
 p {
-  font-family: inherit;
   font-style: normal;
   padding-left: 100px;
   line-height: 26px;
