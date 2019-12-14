@@ -1,9 +1,198 @@
-/* Robert Schuster Web Design CSS profiles */
+/*  FA Schools music math leadership  CSS Styles  */
+
+/* fonts section. */
+
+a, h1, h2, h3, h5 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight:bold;
+   text-transform:uppercase;
+}
+
+
+a, h1, h4 {
+    color:#77a466;
+}
+
+
+h4, p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+
+p  {
+    font-size: 16px;
+    line-height:150%;
+}
+
+
+a {
+    font-size: 10px;
+    font-style: normal;
+    text-decoration: none;
+    margin-top:46px;
+}
+
+
+h1 {
+    font-size: 30px;
+    text-align:left;
+}
+
+
+h2 {
+    font-size: 35px;
+    color: yellow;
+    float: right;
+    text-transform: capitalize;
+    padding: 0px 30px 0px 0px;
+        text-shadow: 3px 3px 4px black;
+}
+
+
+h3 {
+    font-size: 12px;
+
+}
+
+
+h4 {
+    font-size: 16px;
+}
+
+
+h5 {
+    font-size: 16px;
+    margin-left: 450px;
+    padding-top: 33px;
+}
+
+
+
+
+
+/* the following will make the black type  */
+
+
+.enhance {
+    color: black;
+}
+
+
+/*  Column widths set-up  */
+
+
+.full-width {
+    width: 1200px;
+}
+
+
+.half-width, .third-width {
+   float:left;
+}
+
+
+.half-width {
+    width: 595px;
+}
+
+
+
+.third-width {
+    width:349px;
+    padding:25px;
+    height:180px;
+}
+
+
+
+.sixth-width {
+   float:right;
+   padding:15px;
+}
+
+
+#about,#menu,#content {
+    margin-left:5px;
+}
+
+
+/*  set up's nav alignment */
+
+
+#navigation {
+   float:right;
+   margin-left:45px;
+}
+
+
+
+
+.clear-fix {
+    clear:both;
+    width:100%;
+}
+
+
+.set {
+  margin-left: 10px
+}
+
+
+/*  borders for main photo & content section */
+
+#fancy-photo {
+   border-top:3px solid green;
+   border-bottom:3px solid green;
+   margin-left:20px;
+}
+
+
+#fancy-border, #fancy-border-center, #fancy-border-right {
+   border-top:1px solid #dedbdc;
+   border-bottom:1px solid #dedbdc;
+   height:180px;
+}
+
+
+#fancy-border-center {
+   border-left:1px solid #dedbdc;
+   border-right:1px solid #dedbdc;
+}
+
+
+#top-div, #photo-div, #content-div, #bottom-div {
+   float:left;
+   width:1200px;
+}
+
+
+#top-div {
+   width:1240px;
+   height:112px;
+}
+
+
+#photo-div {
+   height:288px;
+}
+
+
+#content-div {
+   padding-left:20px;
+}
+
+
+#bottom-div {
+   height:180px;
+   margin-left:20px;
+}
 
 /*  FA Schools music math leadership  CSS Styles  */
 
-html {
-  color: yellow;
-  font-size: 1em;
-  line-height: 1.4;
+footer {
+   width:1200px;
+   height:50px;
+   padding-top:150px;
+   font-size: 8px;
 }

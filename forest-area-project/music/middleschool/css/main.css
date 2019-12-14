@@ -35,7 +35,7 @@ p1 {
 
 
 a {
-    font-size: 14px;
+    font-size: 10px;
     font-style: normal;
     text-decoration: none;
     margin-top:46px;
@@ -94,7 +94,7 @@ h5 {
 }
 
 
-.half-width, .third-width {
+.half-width, .third-width, .two-third-width {
    float:left;
 }
 
@@ -112,6 +112,12 @@ h5 {
     margin-bottom: 75px;
 }
 
+.two-third-width {
+    width: 840px;
+    height: auto;
+    margin-top: 55px;
+    margin-bottom: 75px;
+}
 
 
 .sixth-width {
@@ -179,8 +185,9 @@ h5 {
 }
 
 
-#footer-div {
+footer {
    width:1200px;
    height:50px;
-   padding-top:10px;
+   padding-top:70px;
+   font-size: 8px;
 }

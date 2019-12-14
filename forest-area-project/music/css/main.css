@@ -179,8 +179,17 @@ h5 {
 }
 
 
-#footer-div {
+footer {
+   width:1200px;
+   height:50px;
+   padding-top:150px;
+   font-size: 8px;
+}
+
+footer {
    width:1200px;
    height:50px;
    padding-top:10px;
+   p{ font-size: 10px;
+   }
 }

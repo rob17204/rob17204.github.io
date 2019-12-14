@@ -33,9 +33,12 @@ p1 {
   padding-top: 160px;
 }
 
+p2 {
+  font-size: 10px;
+}
 
 a {
-    font-size: 14px;
+    font-size: 10px;
     font-style: normal;
     text-decoration: none;
     margin-top:46px;
@@ -179,8 +182,10 @@ h5 {
 }
 
 
-#footer-div {
+footer {
    width:1200px;
    height:50px;
-   padding-top:10px;
+   padding-top:150px;
+   font-size: 8px;
+   }
 }

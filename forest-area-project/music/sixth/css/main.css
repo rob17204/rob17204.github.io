@@ -14,7 +14,7 @@ a, h1, h4 {
 }
 
 
-h4, p {
+h4, p, p1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
 }
@@ -24,18 +24,13 @@ p, p1 {
     line-height:150%;
 }
 
-p {
+p, p1 {
     font-size: 25px;
-}
-
-p1 {
-  font-size: 10px;
-  padding-top: 160px;
 }
 
 
 a {
-    font-size: 14px;
+    font-size: 10px;
     font-style: normal;
     text-decoration: none;
     margin-top:46px;
@@ -94,7 +89,7 @@ h5 {
 }
 
 
-.half-width, .third-width {
+.half-width, .third-width, .two-third-width {
    float:left;
 }
 
@@ -112,7 +107,11 @@ h5 {
     margin-bottom: 75px;
 }
 
-
+.two-third-width {
+    width: 840px;
+    height: auto;
+    margin-bottom: 75px;
+}
 
 .sixth-width {
    float:right;
@@ -179,8 +178,9 @@ h5 {
 }
 
 
-#footer-div {
+footer {
    width:1200px;
    height:50px;
-   padding-top:10px;
+   padding-top:150px;
+   font-size: 8px;
 }
