@@ -1,5 +1,29 @@
 /*  FA Schools music math leadership  CSS Styles  */
 
+html {
+  color: yellow;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+html, body {
+  height: 100%;
+  flex-flow: row nowrap;
+  background-color: green;
+}
+
+hr {
+  display: block;
+  height: .5px;
+  margin: 1em 0;
+  padding: 0;
+  color: yellow;
+}
+
+.clear-fix {
+    clear: both;
+    width:100%
+}
 /* fonts section. */
 
 a, h1, h2, h3, h5 {
@@ -9,190 +33,240 @@ a, h1, h2, h3, h5 {
 }
 
 
-a, h1, h4 {
-    color:#77a466;
+a, h4 {
+    color: #fff;
+    justify-content: center;
 }
 
 
 h4, p {
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
+    font-size: .99em;
 }
 
 
 p  {
-    font-size: 16px;
-    line-height:150%;
+    font-size: 1em;
+    color: black;
+    padding-bottom: 3em;
 }
 
 
 a {
-    font-size: 10px;
+    font-size: inherit;
     font-style: normal;
     text-decoration: none;
-    margin-top:46px;
+    margin-top: 1.5em;
 }
 
 
 h1 {
-    font-size: 30px;
-    text-align:left;
+    width: 100%;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-right: .85em;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: .20em .20em 4px black;
 }
 
 
 h2 {
-    font-size: 35px;
+    width: 100%;
+    font-size: 2.5em;
     color: yellow;
-    float: right;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     text-transform: capitalize;
-    padding: 0px 30px 0px 0px;
-        text-shadow: 3px 3px 4px black;
+    text-shadow: .20em .20em 4px black;
 }
-
 
 h3 {
-    font-size: 12px;
-
+    width: 100%;
+    font-size: 2.5em;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: .85em;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: .20em .20em 4px black;
 }
 
-
 h4 {
-    font-size: 16px;
+    font-size: 1em;
 }
 
 
 h5 {
-    font-size: 16px;
+    font-size: 1em;
     margin-left: 450px;
     padding-top: 33px;
 }
 
-
-
-
-
-/* the following will make the black type  */
-
-
-.enhance {
-    color: black;
+li {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }
 
 
-/*  Column widths set-up  */
+/* containers start here */
 
-
-.full-width {
-    width: 1200px;
+.home-page-top {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row nowrap;
+  background: url('../img/hero.jpg') no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 25em;
 }
 
-
-.half-width, .third-width {
-   float:left;
-}
-
-
-.half-width {
-    width: 595px;
-}
-
-
-
-.third-width {
-    width:349px;
-    padding:25px;
-    height:180px;
+.math-page-top {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row nowrap;
+  align-content: flex-end;
+  background: url('../img/math.jpeg') no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 25em;
 }
 
 
 
-.sixth-width {
-   float:right;
-   padding:15px;
+.container {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 15em;
 }
 
 
-#about,#menu,#content {
-    margin-left:5px;
+@media screen and (min-width: 786px)
+    .div double-container{
+      width: 50%;
+      height: fit-content;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: flex-start;
+      padding-bottom: 15em;
+    }
+
+@media screen and (min-width: 1200px)
+    .div triple-container {
+      width: 33.33%;
+      height: fit-content;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: flex-start;
+      padding-bottom: 15em;
+    }
+
+
+header {
+  background-color: yellow;
+  width:100%;
+  max-width: inherit;
+  height: auto;
 }
-
-
-/*  set up's nav alignment */
-
-
-#navigation {
-   float:right;
-   margin-left:45px;
-}
-
-
-
-
-.clear-fix {
-    clear:both;
-    width:100%;
-}
-
-
-.set {
-  margin-left: 10px
-}
-
-
-/*  borders for main photo & content section */
-
-#fancy-photo {
-   border-top:3px solid green;
-   border-bottom:3px solid green;
-   margin-left:20px;
-}
-
-
-#fancy-border, #fancy-border-center, #fancy-border-right {
-   border-top:1px solid #dedbdc;
-   border-bottom:1px solid #dedbdc;
-   height:180px;
-}
-
-
-#fancy-border-center {
-   border-left:1px solid #dedbdc;
-   border-right:1px solid #dedbdc;
-}
-
-
-#top-div, #photo-div, #content-div, #bottom-div {
-   float:left;
-   width:1200px;
-}
-
-
-#top-div {
-   width:1240px;
-   height:112px;
-}
-
-
-#photo-div {
-   height:288px;
-}
-
-
-#content-div {
-   padding-left:20px;
-}
-
-
-#bottom-div {
-   height:180px;
-   margin-left:20px;
-}
-
-/*  FA Schools music math leadership  CSS Styles  */
 
 footer {
-   width:1200px;
-   height:50px;
-   padding-top:150px;
-   font-size: 8px;
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   width:100%;
+   height:3.125em;
+   background-color: darkgrey;
+   font-size: .9em;
+   justify-content: center;
+   align-items: center;
+}
+
+/* button attributes  */
+
+.button1 {
+    background: #F5F5F5;
+    border: 2px solid black;
+    color: black;
+    padding: .625em 2em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 2em;
+    border-radius: 2.187em;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+.button1:hover {
+      box-shadow: 0 .75em 1em 0 rgba(0,0,0,0.24), 0 1.063em 8.333em 0 rgba(0,0,0,0.19);
+}
+
+
+/* email form  */
+
+form {
+  /* Just to center the form on the page */
+  margin: 1em 1em 1em 1em;
+  width: auto;
+  padding: 2em 2em 2em 2em;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all label have the same size and are properly align */
+  display: inline-block;
+  width: 7.812em;
+  text-align: right;
+}
+
+input, textarea {
+  /* To make sure that all text field have the same font settings
+     By default, textarea are set with a monospace font */
+  font: 1.25em sans-serif;
+
+  /* To give the same size to all text field */
+  width: 20em;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highligh on active elements */
+  border-color: blue;
+}
+
+textarea {
+  /* To properly align multiline text field with their label */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 10em;
+
+  /* To allow users to resize any textarea vertically
+     It works only on Chrome, Firefox and Safari */
+  resize: vertical;
 }
