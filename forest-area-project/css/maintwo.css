@@ -1,0 +1,311 @@
+/*  FA Schools music math leadership  CSS Styles  */
+
+html {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+html, body {
+  height: auto;
+  background-color: green;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+/* fonts section. */
+
+a, h1, h2, h3, h5 {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+
+a, h4 {
+    color: #fff;
+    justify-content: center;
+}
+
+
+h4, p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: .99em;
+}
+
+
+p  {
+    font-size: 1em;
+    color: black;
+}
+
+
+a {
+    font-size: inherit;
+    font-style: normal;
+    text-decoration: none;
+    margin-top: 1.5em;
+}
+
+
+h1 {
+    font-size: 1.5em;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: .85em;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: .20em .20em 4px black;
+}
+
+
+h2 {
+    width: 100%;
+    font-size: 1.75em;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: .20em .20em 4px black;
+}
+
+h3 {
+    width: 100%;
+    font-size: 1.75em;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-left: .85em;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: .20em .20em 4px black;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+
+h5 {
+    font-size: 1em;
+    margin-left: 450px;
+    padding-top: 33px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+
+/* containers start here */
+
+.home-page {
+  width: 100%;
+  background: url('../img/hero.jpg') no-repeat;
+  height: inherit;
+  border-top: 3px solid yellow;
+  border-bottom: 3px solid yellow;
+  height: 325px;
+}
+
+.math-page-top {
+  width: 100%;
+  height: inherit;
+  background: url('../img/math.jpeg') no-repeat;
+  border-top: 3px solid yellow;
+  border-bottom: 3px solid yellow;
+  height: 325px;
+}
+
+.section-top {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.section-middle {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: space-between;
+}
+
+header {
+  width:100%;
+  max-width: inherit;
+  height: auto;
+}
+
+footer {
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: auto;
+   background-color: darkgrey;
+   border-top: 3px solid yellow;
+   font-size: .9em;
+   margin-top: 150px;
+}
+
+/* button attributes  */
+
+.button1 {
+    background: #F5F5F5;
+    border: 2px solid black;
+    color: black;
+    padding: .625em 2em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 1.5em;
+    border-radius: 2.187em;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+.button1:hover {
+      box-shadow: 0 .75em 1em 0 rgba(0,0,0,0.24), 0 1.063em 8.333em 0 rgba(0,0,0,0.19);
+}
+
+
+/* email form  */
+
+form {
+  /* Just to center the form on the page */
+  margin: 1em 1em 1em 1em;
+  width: auto;
+  padding: 2em 2em 2em 2em;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all label have the same size and are properly align */
+  display: inline-block;
+  width: 7.812em;
+  text-align: right;
+}
+
+input, textarea {
+  /* To make sure that all text field have the same font settings
+     By default, textarea are set with a monospace font */
+  font: 1.25em sans-serif;
+
+  /* To give the same size to all text field */
+  width: 20em;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highligh on active elements */
+  border-color: blue;
+}
+
+textarea {
+  /* To properly align multiline text field with their label */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 10em;
+
+  /* To allow users to resize any textarea vertically
+     It works only on Chrome, Firefox and Safari */
+  resize: vertical;
+}
+
+
+@media screen and (min-width: 768px) {
+    .content {
+      width: 50%;
+      height: fit-content;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .section-top {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: space-between;
+    }
+
+    .section-middle {
+        height: fit-content;
+        width: 50%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: space-between;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .content {
+      width: 33.33%;
+      height: fit-content;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items:  center;
+      padding-bottom: 15em;
+    }
+
+    .section-top {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: space-between;
+    }
+
+    .section-middle {
+        height: fit-content;
+        width: 33%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: space-between;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
