@@ -15,15 +15,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.container {
-    max-width: 1200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-}
-
 img {
   object-fit: cover;
   max-width: 100%;
