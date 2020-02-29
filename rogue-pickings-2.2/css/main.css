@@ -5,12 +5,10 @@
 
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-	max-width: 1200px;
 }
 
 .container{
-	width: 90%;
-	margin: 0 auto;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -221,7 +219,12 @@ footer span {
 @media (min-width: 1200px) {
 
 	.container {
-		width: 98%;
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	header {
