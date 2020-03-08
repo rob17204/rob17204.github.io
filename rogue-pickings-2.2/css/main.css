@@ -182,7 +182,7 @@ footer span {
 
 /*   ---------  tablet sized screens  ----------     */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
 	p {
 		font-size: 0.875em;
@@ -222,7 +222,7 @@ footer span {
 
 /*  for pc size screen */
 
-@media  (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 
 
 	header {
