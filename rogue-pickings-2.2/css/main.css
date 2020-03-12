@@ -10,11 +10,12 @@ html {
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-size: 1em;
-	max-width: 1200px;
+	display: flex;
+	justify-content: center;
 }
 
 .container {
-	width: 100%;
+	max-width: 1200px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -94,6 +95,7 @@ header nav ul li {
 	padding-bottom: 20px;
 	display: inline;
 }
+
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
@@ -108,6 +110,7 @@ header nav ul li a{
 .main-image {
 	height: auto;
 }
+
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
@@ -116,11 +119,13 @@ header nav ul li a{
 .main-title {
 	height: auto;
 }
+
 .main-title h3 {
 	text-align: left;
 	padding: 5px 0;
 	color: #77a466;
 }
+
 .main-title p {
 	padding: 0;
 	font-size: 1em;
@@ -148,6 +153,7 @@ header nav ul li a{
 	list-style: none;
 	padding: 0;
 }
+
 .menu li {
 	padding: 10px 0;
 	color:#77a466;
@@ -173,6 +179,7 @@ footer {
 	clear: both;
 	text-align: center;
 }
+
 footer span {
 	font-family: 'Wisdom Script', cursive;
 	text-transform: lowercase;
@@ -224,7 +231,6 @@ footer span {
 
 @media screen and (min-width: 1200px) {
 
-	
 	header {
 		height: auto;
 		width: 100%;
