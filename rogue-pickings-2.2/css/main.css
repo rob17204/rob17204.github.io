@@ -9,9 +9,10 @@ html {
 
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-	max-width: 1200px;
 	display: flex;
 	justify-content: center;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .container {
