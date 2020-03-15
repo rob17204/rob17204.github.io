@@ -6,10 +6,12 @@
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	max-width: 1200px;
+	display: flex;
+	justify-content: center;
 }
 
 .container{
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
