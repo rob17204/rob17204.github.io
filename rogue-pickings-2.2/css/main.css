@@ -1,3 +1,7 @@
+html {
+	font-size: 16px;
+}
+
 @font-face{
 	font-family: 'Wisdom Script';
 	src: url('../fonts/wisdom-script.otf') format('opentype');
@@ -10,9 +14,8 @@ body {
 	justify-content: center;
 }
 
-.container{
-	width: 100%;
-	margin: 0 auto;
+.container {
+	max-width: 1200px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -28,20 +31,20 @@ h4 {
 	font-weight: 700;
 }
 h1 {
-	font-size: 30px;
+	font-size: 1.875em;
 }
 h2 {
-  font-size: 24px;
+  font-size: 1.5em;
 }
 h3 {
-	font-size: 18px;
+	font-size: 1.125em;
 }
 h4 {
-	font-size: 12px;
+	font-size: .75em;
 }
 
 p {
-	font-size: 14px;
+	font-size: 0.875em;
 	line-height: 21px;
 }
 
@@ -87,11 +90,12 @@ header nav ul {
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 14px;
+	font-size: 0.875em;
 	padding: 0 10px;
 	padding-bottom: 20px;
 	display: inline;
 }
+
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
@@ -106,6 +110,7 @@ header nav ul li a{
 .main-image {
 	height: auto;
 }
+
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
@@ -114,14 +119,16 @@ header nav ul li a{
 .main-title {
 	height: auto;
 }
+
 .main-title h3 {
 	text-align: left;
 	padding: 5px 0;
 	color: #77a466;
 }
+
 .main-title p {
 	padding: 0;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 25px;
 }
 
@@ -146,6 +153,7 @@ header nav ul li a{
 	list-style: none;
 	padding: 0;
 }
+
 .menu li {
 	padding: 10px 0;
 	color:#77a466;
@@ -153,12 +161,12 @@ header nav ul li a{
 
 .reviews {
 	color: #333;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 21px;
 }
 
 .address {
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 24px;
 }
 
@@ -171,19 +179,20 @@ footer {
 	clear: both;
 	text-align: center;
 }
+
 footer span {
 	font-family: 'Wisdom Script', cursive;
 	text-transform: lowercase;
 	color: #77a466;
-	font-size: 14px;
+	font-size: 0.875em;
 }
 
 /*   ---------  tablet sized screens  ----------     */
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
 	p {
-		font-size: 14px;
+		font-size: 0.875em;
 		line-height: 21px;
 	  padding: 0 30px;
 	}
@@ -220,11 +229,7 @@ footer span {
 
 /*  for pc size screen */
 
-@media (min-width: 1200px) {
-
-	.container {
-		width: 98%;
-	}
+@media screen and (min-width: 1200px) {
 
 	header {
 		height: auto;
@@ -232,7 +237,7 @@ footer span {
 		margin: 0 auto;
 		display: flex;
 		flex-direction: row;
-		justify-content: flex-end;
+		justify-content: center;
 		align-items: flex-end;
 	}
 
@@ -264,7 +269,7 @@ footer span {
 	header nav ul li {
 		text-transform: uppercase;
 		font-weight: 700;
-		font-size: 14px;
+		font-size: 0.875em;
 		width: 70%;
 	}
 }
