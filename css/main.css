@@ -18,6 +18,10 @@ body {
   height: auto;
 }
 
+header.landing {
+  background-image: url('../img/red-bkg.jpg');
+  height: 225px;
+}
 
 header {
   background-image: url('../img/fluffy-clouds.jpg');
@@ -235,6 +239,17 @@ h6 {
   padding: 0px 20px 20px 50px;
 }
 
+h6.landing-font{
+  line-height: 28px;
+  font-size: 20px;
+  color: white;
+}
+
+h5.landing-font-lg{
+  line-height: 30px;
+  font-size: 36px;
+  color: black;
+}
 
 p {
   font-style: normal;
