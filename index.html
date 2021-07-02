@@ -28,14 +28,18 @@
           <header>
                     <div class="wrapper" id="padding">
                            <!--  Page top at header  -->
-                           <h1><span>robert schuster<br/>web developer</span>
-                           <img src="img/man-computer.png" alt="man at computer" /></h1>
+                        <div class="half">
+                              <h1><span>robert schuster<br/>web developer</span>
+                        </div>
+                        <div>
+                              <img src="img/man-computer.png" alt="man at computer" /></h1>
+                        </div>
                     </div>
                     <!-- header portion with 3 topic points -->
                     <section class="wrapper">
                               <div class="div-1">
                                         <h2>responsive designs</h2>
-                                        <p>Web pages that look nice on mobile devices and computers.</p>
+                                        <p>Web pages that look fresh on mobile devices and computers.</p>
                               </div>
                               <div class="div-2">
                                         <h2>customized content</h2>
@@ -68,19 +72,30 @@
                               <h3>mobile ready websites - with mobile first designs.</h3>
                     </section>
           </subheader>
-        <!-- About section starts here -->
-          <about class="about">
-                    <div class="fancy-container">
-                              <div id="about">
-                                        <h2>about me</h2>
-                                        <img src="img/rob.jpg" alt="photo of rob" />
-                              </div>
-                              <p>I live in the beautiful area of northern lower michigan commonly called "Up North" by many people who vacation here.  I started coding in high school, and later began building web sites from the ground up as a hobby, over 19 years ago, to highlight photos of my young children for family and friends.  I have found that knowing how the code inside of a website works is an advantage to producing content that stands out from the rest.<br/>When I take a break, I can be found outside walking, biking, or hiking in the wonderful area that I live.</p>
-                    </div>
-                    <div>
-                              <h2>If you are looking for a complete website build or updates, you will find that my skills, with the most current techniques, will make it happen.</h2>
-                    </div>
-          </about>
+          <!--  Portfolio sample images of past work  -->
+            <div class="portfolio">
+                  <div>
+                           <h2>If you are looking for a complete website build or updates, you will find that my skills, with the most current techniques, will make it happen.</h2>
+                  </div>
+                      <section>
+                                <h3>Portfolio</h3>
+                      </section>
+                      <section id="portfolio">
+                                <div class="portfolio-pic" id="portfolio">
+                                          <!-- LifeSMILES Cadillac  -->
+                                          <a href="img/sample1.png" target="_blank"><img src="img/sample1-thmb.png"  alt="work project #1" /></a>
+                                </div>
+                                <div class="portfolio-pic" id="portfolio">
+                                          <!-- Extraordinary Practice  -->
+                                          <a href="img/sample2.png" target="_blank"><img src="img/sample2-thmb.png" alt="work project #2" /></a>
+                                </div>
+                                <div id="portfolio">
+                                          <!-- LifeSMILES Gladwin  -->
+                                          <a href="img/sample3.png" target="_blank"><img src="img/sample3-thmb.png" alt="work project #3" /></a>
+                                </div>
+                                <!--  2 or 3 skillcrush class samples too?  -->
+                      </section>
+                </div>
         <!-- Reviews section starts here  -->
           <reviews id="review">
                     <div class="reviews">
@@ -99,7 +114,7 @@
           </reviews>
         <!--  Contact Section begins  -->
           <contact class="contact">
-                    <div>
+                    <div id="resize">
                               <img src="img/big-connect.png" alt="people communicating" />
                     </div>
                     <div id="contact">
@@ -112,40 +127,41 @@
 
                               <!-- email and social contacts start  -->
                               <section class="contact">
-                              <!-- email  -->
-                                        <h3><a href="mailto:gr8-guy@att.net" id="me">gr8-guy[at]att.net</a></h3>
-                                        <!-- FaceBook  -->
-                                        <h3><a href="https://www.facebook.com/developerrob/" target="_blank"><img src="img/facebook-red.png" alt="facebook icon" height="50" width="50"></a></h3>
-                                        <!--  linkedin  -->
-                                        <h3><a href="https://www.linkedin.com/in/robert-schuster-070702ab/detail/recent-activity/" target="_blank"><img src="img/linkedin-red.png" alt="linkedin icon"></a></h3>
-                                        <!-- Twitter  -->
-                                        <h3><a href="https://twitter.com/tustinmi_rob" target="_blank"><img src="img/twitter-red.png" alt="twitter icon"></a></h3>
-                                        <!--  Website  -->
-                                        <h3><a href="https://rob17204.github.io/index.html" target="_blank"><img src="img/github-red.png" alt="github icon"></a></h3>
+                                    <div id="social">
+                                    <!-- email  -->
+                                        <h3><a href="mailto:gr8-guy@att.net">gr8-guy[at]att.net</a></h3>
+                                    </div>
+                                    <div  id="social">
+                                          <div>
+                                              <!-- FaceBook  -->
+                                              <h3><a href="https://www.facebook.com/developerrob/" target="_blank"><img src="img/facebook-red.png" alt="facebook icon" height="50" width="50"></a></h3>
+                                          </div>
+                                          <div>
+                                              <!--  linkedin  -->
+                                              <h3><a href="https://www.linkedin.com/in/robert-schuster-070702ab/detail/recent-activity/" target="_blank"><img src="img/linkedin-red.png" alt="linkedin icon"></a></h3>
+                                          </div>
+                                          <div>
+                                              <!-- Twitter  -->
+                                              <h3><a href="https://twitter.com/tustinmi_rob" target="_blank"><img src="img/twitter-red.png" alt="twitter icon"></a></h3>
+                                          </div>
+                                          <div>
+                                              <!--  Website  -->
+                                              <h3><a href="https://rob17204.github.io/index.html" target="_blank"><img src="img/github-red.png" alt="github icon"></a></h3>
+                                          </div>
+                                    </div>
                               </section>
                     </div>
           </contact>
-        <!--  Portfolio sample images of past work  -->
-          <div class="portfolio">
-                    <section>
-                              <h3>Portfolio</h3>
-                    </section>
-                    <section id="portfolio">
-                              <div id="portfolio">
-                                        <!-- LifeSMILES Cadillac  -->
-                                        <a href="img/sample1.png" target="_blank"><img src="img/sample1-thmb.png"  alt="work project #1" /></a>
-                              </div>
-                              <div id="portfolio">
-                                        <!-- Extraordinary Practice  -->
-                                        <a href="img/sample2.png" target="_blank"><img src="img/sample2-thmb.png" alt="work project #2" /></a>
-                              </div>
-                              <div id="portfolio">
-                                        <!-- LifeSMILES Gladwin  -->
-                                        <a href="img/sample3.png" target="_blank"><img src="img/sample3-thmb.png" alt="work project #3" /></a>
-                              </div>
-                              <!--  2 or 3 skillcrush class samples too?  -->
-                    </section>
-          </div>
+          <!-- About section starts here -->
+            <about class="about">
+                      <div class="fancy-container">
+                                <div id="about">
+                                          <h2>about me</h2>
+                                          <img src="img/rob.jpg" alt="photo of rob" />
+                                </div>
+                                <p>I live in the beautiful area of northern lower michigan commonly called "Up North" by many people who vacation here.  I started coding in high school, and later began building web sites from the ground up as a hobby, over 19 years ago, to highlight photos of my young children for family and friends.  I have found that knowing how the code inside of a website works is an advantage to producing content that stands out from the rest.<br/>When I take a break, I can be found outside walking, biking, or hiking in the wonderful area that I live.</p>
+                      </div>
+            </about>
         <!-- Footer starts here -->
           <footer>
                     copyright 2021 Robert Schuster | Web Developer

@@ -115,7 +115,7 @@ html {
 
 body {
           font-family: 'Source Sans Pro', sans-serif;
-          padding: 2em;
+          padding: 0;
           font-size: 1.25em;
           height: 100%;
           width: auto;
@@ -123,7 +123,7 @@ body {
 
 header {
           background: url('../img/fluffy-clouds.jpg') no-repeat;
-          height: 100%;
+          height: auto;
           width: 100%;
           display: flex;
           justify-content: flex-end;
@@ -133,12 +133,16 @@ header {
 
 subheader {
           background: url('../img/rocket-mid.jpg') no-repeat;
-          height: 754px;
+          background-size: cover;
+          height: auto;
           width: 100%;
           display: flex;
-          justify-content: center;
-          align-items: flex-end;
+          justify-content:flex-start;
+          align-items: flex-start;
           flex-flow: column nowrap;
+          padding-left: 20px;
+          padding-top: 0;
+
 
 }
 
@@ -161,9 +165,7 @@ reviews {
           flex-flow: column;
 }
 
-reviews img {
-          padding-right: 4em;
-}
+
 
 reviews p {
           line-height: 1.9em;
@@ -191,39 +193,39 @@ footer {
 
 /*    Page FONTS    */
 h1 {
-          display: flex;
-          font-family: 'Kaushan Script', cursive;
-          justify-content: center;
-          align-items: center;
-          margin-top: 125px;
-          font-size: 3em;
-          text-transform: capitalize;
-          color: #090934;
+      display: flex;
+      font-family: 'Kaushan Script', cursive;
+      justify-content: center;
+      align-items: center;
+      margin-top: 125px;
+      font-size: 3em;
+      text-transform: capitalize;
+      color: #090934;
 }
 
 h1 img {
-          padding-left: 80px;
+      padding-left: 80px;
 }
 
 h2 {
-          font-size: 1.5em;
-          color: #f2f2f2;
-          text-transform: capitalize;
+      font-size: 1.5em;
+      color: #f2f2f2;
+      text-transform: capitalize;
 }
 
 h3 {
-          color: #090934;
-          font-size: 1.4em;
+      color: #090934;
+      font-size: 1.4em;
 }
 
 p {
-          text-align: center;
-          color: #f2f2f2;
+      text-align: center;
+      color: #f2f2f2;
 }
 
 a {
-          text-decoration: none;
-          color: #d81012;
+      text-decoration: none;
+      color: #d81012;
 }
 
 span {
@@ -263,7 +265,7 @@ reviews h2 {
           display: flex;
           justify-content: space-between;
           align-items: center;
-          flex-flow: row nowrap;
+          flex-flow: column wrap;
           font-weight: 700;
 }
 
@@ -273,23 +275,34 @@ reviews h2 {
           font-size: .8em;
           background-color: rgba(107, 132, 193, 0.8);
           border-radius: 30px;
-          height: 200px;
-          width: 30%;
+          height: auto;
+          width: 95%%;
           display: flex;
           justify-content: center;
           align-items: center;
-          flex-flow: column nowrap;
+          flex-flow: row wrap;
           padding: 10px;
+          margin: 20px;
 }
 
 .whole {
           height: auto;
           width: 100%;
           display: flex;
-          margin-top: 16em;
+          margin-top: 20em;
           justify-content: center;
-          align-items: flex-end;
-          flex-flow: row nowrap;
+          align-items: center;
+          flex-flow: row wrap;
+          margin: 0;
+}
+
+.half {
+      height: auto;
+      width: 45%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
 }
 
 .about {
@@ -337,11 +350,11 @@ reviews h2 {
           display: flex;
           justify-content: center;
           align-items: flex-start;
-          flex-flow: row nowrap;
+          flex-flow: column wrap;
 }
 
 .portfolio {
-          background: linear-gradient(#ffffff, #69afc6);
+          background: linear-gradient(#69afc6, #ffffff);
           background-size: 100% 100%;
           display: flex;
           justify-content: space-between;
@@ -352,14 +365,20 @@ reviews h2 {
           width: 100%;
           height: auto;
 }
+.portfolio h2 {
+      padding: 0 10px 0 10px;
+      text-align: center;
+
+}
+
 
 /*    Id section   */
 
 #launch {
-          padding-top: 3.5em;
-          padding-right: 8em;
+          padding-top: 1.0em;
+          padding-left: 0;
           display: flex;
-          justify-content: flex-end;
+          justify-content: flex-start;
           align-items: flex-start;
           flex-flow: column;
 }
@@ -369,41 +388,40 @@ reviews h2 {
 }
 
 #about {
-          width: 100%;
+
           display: flex;
-          justify-content: space-around;
+          justify-content: center;
           align-items: center;
-          flex-flow: row nowrap;
+          flex-flow: column wrap;
 }
 
 #review {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-          flex-flow: row wrap;
+      flex-flow: row wrap;
 }
 
 #reviews, #review-single {
           text-align: left;
-          clear: both;
           display: flex;
           justify-content: center;
           align-items: center;
-          flex-flow: row nowrap;
+          flex-flow: row wrap;
           background: rgba(17, 102, 203, 0.5);
           border-radius: 30px;
           color: #f2f2f2;
 }
 #reviews {
           padding: 1.6em;
-          width: 40%;
-          height: 22em;
+          width: 90%;
+          height: auto;
           margin-left: .98em;
           margin-right: .98em;
 }
 #review-single {
           width: 90%;
-          height: 8em;
+          height: auto;
           padding: 3em;
           margin-left: .99em;
           margin-right: .99em;
@@ -414,20 +432,229 @@ reviews h2 {
           justify-content: flex-end;
           align-items: flex-start;
           flex-flow: column nowrap;
-          padding-right: 2em;
+          padding-left: 16px;
 }
 
 #portfolio {
           display: flex;
           justify-content: center;
           align-items: center;
-          flex-flow: row nowrap;
+          flex-flow: column wrap;
           width: 100%;
+          padding-bottom: 15px;
 }
 
 #portfolio-center {
           padding-left: 20px;
           padding-right: 20px;
+}
+
+#padding {
+      display: flex;
+      flex-direction: column-reverse;
+}
+
+#social {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row nowrap;
+      padding-left: 40px;
+      padding-right: 40px;
+      width: 80%;
+      height: auto;
+}
+#social img {
+      height: 50px;
+      width: 50px;
+}
+contact img {
+      width: 400px;
+      height: auto;
+}
+
+/*  ================  Responsive Break-Points Begin Here  =================  */
+
+/*   ++++++++++ Tablet Size  +++++++++++++++++++  */
+@media (min-width: 768px) and (max-width: 1199px) {
+      body {
+                padding: 2em;
+      }
+      header .wrapper {
+            display: flex;
+            flex-flow: row nowrap;
+      }
+      reviews img {
+                padding-right: 4em;
+      }
+      contact img {
+            width: auto;
+            height: auto;
+            align-items: center;
+      }
+      .div-1, .div-2, .div-3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column nowrap;
+            height: 200px;
+            width: 30%;
+            margin: 0;
+      }
+      .portfolio {
+                background: linear-gradient(#69afc6, #ffffff);
+                background-size: 100% 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-flow: column wrap;
+                padding-top: 20px;
+                padding-bottom: 40px;
+                width: 100%;
+                height: auto;
+      }
+      #contact {
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-start;
+                flex-flow: row wrap;
+                padding-left: 16px;
+      }
+
+      #portfolio {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column nowrap;
+            width: 100%;
+            }
+
+      .portfolio-pic {
+            width: 325px;
+            height: auto;
+      }
+}
+
+/*  +++++++++++  Desk-Top Size  ++++++++++++++++  */
+@media (min-width: 1200px) {
+      body {
+                padding: 2em;
+      }
+      .wrapper {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-flow: row wrap;
+                font-weight: 700;
+      }
+      .div-1, .div-2, .div-3 {
+            flex-flow: column nowrap;
+            height: 200px;
+            width: 30%;
+            margin: 0;
+      }
+      .whole {
+                height: auto;
+                width: 100%;
+                display: flex;
+                margin-top: 16em;
+                justify-content: center;
+                align-items: flex-end;
+                flex-flow: row nowrap;
+      }
+      .half {
+            height: auto;
+            width: 45%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: row wrap;
+      }
+      .contact {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-flow: row nowrap;
+      }
+
+      subheader {
+            height: 754px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            flex-flow: column nowrap;
+            padding: 0;
+
+      }
+      reviews {
+                background: linear-gradient(#ffffff, #69afc6);
+                background-size: 100% 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                flex-flow: column;
+      }
+      reviews img {
+                padding-right: 4em;
+      }
+      #reviews {
+                padding: 1.6em;
+                width: 40%;
+                height: auto;
+                height: 22em;
+                margin-left: .98em;
+                margin-right: .98em;
+      }
+      #review-single {
+                width: 90%;
+                height: auto;
+                padding: 3em;
+                margin-left: .99em;
+                margin-right: .99em;
+      }
+      #launch {
+                padding-top: 3.5em;
+                padding-right: 600px;
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-start;
+                flex-flow: column wrap;
+      }
+      #padding {
+            flex-direction: row;
+      }
+      #about {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-flow: row nowrap;
+      }
+      #contact {
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-start;
+                flex-flow: column nowrap;
+                padding-right: 2em;
+      }
+      contact img {
+            width: 100%;
+            height: auto;
+      }
+      #social {
+            display: flex;
+            flex-direction: row nowrap;
+      }
+
+      #portfolio {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: row nowrap;
+                width: 100%;
+      }
+
 }
 
 /* ==========================================================================
