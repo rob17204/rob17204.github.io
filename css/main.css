@@ -147,7 +147,7 @@ subheader {
 }
 
 about {
-          background: linear-gradient(#69afc6, #ffffff);
+          background: linear-gradient(#ffffff, #69afc6);
           height: auto;
           width: 100%;
           display: flex;
