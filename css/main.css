@@ -108,86 +108,39 @@ textarea {
           rgb(17, 102, 203) #1166cb megaphone center
   */
 
+/* mobile- size standard  */
+
 html {
-          background-color: #ffffff;
-          height: 100%;
+      background-color: #ffffff;
+      height: 100%;
 }
 
 body {
-          font-family: 'Source Sans Pro', sans-serif;
-          padding: 0;
-          font-size: 1.25em;
-          height: 100%;
-          width: auto;
+      font-family: 'Source Sans Pro', sans-serif;
+      padding: 0;
+      font-size: 1.25em;
+      height: 100%;
+      width: auto;
 }
 
 header {
-          background: url('../img/fluffy-clouds.jpg') no-repeat;
-          height: auto;
-          width: 100%;
-          display: flex;
-          justify-content: flex-end;
-          align-items: center;
-          flex-flow: column nowrap;
-}
-
-subheader {
-          background: url('../img/rocket-mid.jpg') no-repeat;
-          background-size: cover;
-          height: auto;
-          width: 100%;
-          display: flex;
-          justify-content:flex-start;
-          align-items: flex-start;
-          flex-flow: column nowrap;
-          padding-left: 20px;
-          padding-top: 0;
-
-
-}
-
-about {
-          background: linear-gradient(#ffffff, #69afc6);
-          height: auto;
-          width: 100%;
-          display: flex;
-          justify-content: center;
-          align-items: flex-start;
-          flex-flow: row nowrap;
-}
-
-reviews {
-          background: linear-gradient(#ffffff, #69afc6);
-          background-size: 100% 100%;
-          display: flex;
-          justify-content: flex-start;
-          align-items: flex-start;
-          flex-flow: column;
-}
-
-
-
-reviews p {
-          line-height: 1.9em;
-}
-
-contact {
-          background: linear-gradient(#69afc6, #ffffff);
-          background-size: 100% 100%;
-          display: flex;
-          justify-content: center;
-          align-items: auto;
-          flex-flow: column nowrap;
+      background: url('../img/fluffy-clouds.jpg') no-repeat;
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
 }
 
 footer {
-          background-color: #244f64;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-flow: row;
-          width: 100%;
-          height: auto;
+      background-color: #244f64;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row;
+      width: 100%;
+      height: auto;
 }
 
 
@@ -197,280 +150,332 @@ h1 {
       font-family: 'Kaushan Script', cursive;
       justify-content: center;
       align-items: center;
-      margin-top: 125px;
       font-size: 3em;
       text-transform: capitalize;
       color: #090934;
 }
 
-h1 img {
-      padding-left: 80px;
-}
-
 h2 {
+      font-family: 'Source Sans Pro', sans-serif;
       font-size: 1.5em;
       color: #f2f2f2;
       text-transform: capitalize;
 }
 
 h3 {
+      font-family: 'Source Sans Pro', sans-serif;
       color: #090934;
       font-size: 1.4em;
 }
 
 p {
+      font-family: 'Source Sans Pro', sans-serif;
       text-align: center;
       color: #f2f2f2;
 }
 
 a {
+      font-family: 'Source Sans Pro', sans-serif;
       text-decoration: none;
       color: #d81012;
 }
 
 span {
-          transform: rotate(-20deg);
+      transform: rotate(-20deg);
+}
+/*    Classes of page   */
+
+.about {
+      background: linear-gradient(#ffffff, #69afc6);
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-flow:  column;
+}
+.about-top {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row nowrap;
 }
 
 .about p {
-          color: #244f64;
-          line-height: 1.8em;
-          text-align: left;
+      color: #244f64;
+      line-height: 1.8em;
+      text-align: left;
 }
 
 .about h2 {
-          color: #244f64;
-          text-align: center;
-          padding-right: 60px;
+      color: #244f64;
+      text-align: center;
+      padding-right: 60px;
 }
 
-reviews h2 {
-          color: #1166cb;
+.about img {
+      border-radius: 10px;
+}
+
+.about h2 {
+      padding-left: 45px;
+}
+
+.contact {
+      background: linear-gradient(#69afc6, #ffffff);
+      background-size: 100% 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column nowrap;
+}
+
+.contact img {
+      width: 100%;
+      height: auto;
 }
 
 .contact h3 {
-          padding-right: .5em;
-
+      padding-right: .5em;
 }
 
 .contact h2 {
-          color: #1166cb;
-          font-size: 1em;
-}
-
-
-
-/*    Classes of page   */
-.wrapper {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-flow: column wrap;
-          font-weight: 700;
+      color: #1166cb;
+      font-size: 1em;
+      padding-right: 12px;
 }
 
 .div-1, .div-2, .div-3 {
-          color: #595959;
-          line-height: 1.8em;
-          font-size: .8em;
-          background-color: rgba(107, 132, 193, 0.8);
-          border-radius: 30px;
-          height: auto;
-          width: 95%%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-flow: row wrap;
-          padding: 10px;
-          margin: 20px;
+      color: #595959;
+      line-height: 1.8em;
+      font-size: .8em;
+      background-color: rgba(107, 132, 193, 0.8);
+      border-radius: 30px;
+      height: auto;
+      width: 95%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      padding: 10px;
+      margin: 20px;
 }
 
-.whole {
-          height: auto;
-          width: 100%;
-          display: flex;
-          margin-top: 20em;
-          justify-content: center;
-          align-items: center;
-          flex-flow: row wrap;
-          margin: 0;
+.fancy-container {
+      border: 2px solid #6b84c1;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 8px;
+}
+
+.full {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+}
+
+.full h2 {
+      color: #1166cb;
 }
 
 .half {
       height: auto;
-      width: 45%;
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
 }
 
-.about {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-flow: column;
-}
-
-.about img {
-          border-radius: 10px;
-}
-
-.about h2 {
-          padding-left: 45px;
-}
-
-.fancy-container {
-                    border: 2px solid #6b84c1;
-                    border-radius: 10px;
-                    padding: 20px;
-                    margin: 40px;
-}
-
-.reviews {
-          height: auto;
-          width: 100%;
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-          flex-flow: row nowrap;
-
-}
-
-.review-single {
-          height: auto;
-          width: 100%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-flow: row;
-}
-
-.contact {
-          display: flex;
-          justify-content: center;
-          align-items: flex-start;
-          flex-flow: column wrap;
-}
 
 .portfolio {
-          background: linear-gradient(#69afc6, #ffffff);
-          background-size: 100% 100%;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          flex-flow: column nowrap;
-          padding-top: 20px;
-          padding-bottom: 40px;
-          width: 100%;
-          height: auto;
+      background: linear-gradient(#69afc6, #ffffff);
+      background-size: 100% 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-flow: column nowrap;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      width: 100%;
+      height: auto;
 }
+
 .portfolio h2 {
       padding: 0 10px 0 10px;
       text-align: center;
 
 }
 
-
-/*    Id section   */
-
-#launch {
-          padding-top: 1.0em;
-          padding-left: 0;
-          display: flex;
-          justify-content: flex-start;
-          align-items: flex-start;
-          flex-flow: column;
+.portfolio-pic {
+      padding: 8px 0 8px 0;
+      width: auto;
+      height: auto;
 }
 
-#launch-tag {
-          color: #fbb03b;
-}
-
-#about {
-
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-flow: column wrap;
-}
-
-#review {
+.review {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
       flex-flow: row wrap;
 }
 
-#reviews, #review-single {
-          text-align: left;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-flow: row wrap;
-          background: rgba(17, 102, 203, 0.5);
-          border-radius: 30px;
-          color: #f2f2f2;
+.review-container {
+      background: linear-gradient(#ffffff, #69afc6);
+      background-size: 100% 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-flow: column;
 }
-#reviews {
-          padding: 1.6em;
-          width: 90%;
-          height: auto;
-          margin-left: .98em;
-          margin-right: .98em;
+
+.review-single {
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row;
 }
-#review-single {
-          width: 90%;
-          height: auto;
-          padding: 3em;
-          margin-left: .99em;
-          margin-right: .99em;
+
+.reviews {
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-flow: row nowrap;
+
+}
+
+.reviews p {
+      line-height: 1.9em;
+}
+
+.reviews-two, .review-one {
+      text-align: left;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+      background: rgba(17, 102, 203, 0.5);
+      border-radius: 30px;
+      color: #f2f2f2;
+}
+
+.review-one {
+      width: 90%;
+      height: auto;
+      padding: 1.6em;
+      margin-left: .98em;
+      margin-right: .98em;
+}
+
+.reviews-two {
+      padding: 1.6em;
+      width: 90%;
+      height: auto;
+      margin-left: .98em;
+      margin-right: .98em;
+}
+
+
+.samples {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      width: 100%;
+      padding-bottom: 15px;
+}
+
+.subheader {
+      background: url('../img/rocket-mid.jpg') no-repeat;
+      background-size: cover;
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content:flex-start;
+      align-items: flex-start;
+      flex-flow: column nowrap;
+      padding: 0;
+}
+
+.whole {
+      height: auto;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column nowrap;
+      margin: 0;
+}
+
+.wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-flow: column wrap;
+      font-weight: 700;
+}
+
+
+/*    Id section   */
+
+#cloud {
+      padding: 0;
 }
 
 #contact {
-          display: flex;
-          justify-content: flex-end;
-          align-items: flex-start;
-          flex-flow: column nowrap;
-          padding-left: 16px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      flex-flow: column nowrap;
+      padding-left: 16px;
 }
 
-#portfolio {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-flow: column wrap;
-          width: 100%;
-          padding-bottom: 15px;
-}
-
-#portfolio-center {
-          padding-left: 20px;
-          padding-right: 20px;
-}
-
-#padding {
+#direction {
       display: flex;
       flex-direction: column-reverse;
 }
 
+#launch, #launch-text {
+      padding-top: 1.0em;
+      padding-left: 20px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-flow: column;
+}
+
+#launch-tag {
+      color: #fbb03b;
+}
+
+#portfolio-center {
+      padding-left: 20px;
+      padding-right: 20px;
+}
+
+/*  cut if works update pc settings maybe ipad settings */
 #social {
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-flow: row nowrap;
-      padding-left: 40px;
-      padding-right: 40px;
-      width: 80%;
+      flex-flow: column wrap;
+      padding-right: 20px;
+      width: 100%;
       height: auto;
 }
+
 #social img {
       height: 50px;
       width: 50px;
 }
-contact img {
-      width: 400px;
-      height: auto;
+
+#social h3 {
+      padding-left: 30px; /* this floats the icons to center of page mobile */
 }
 
 /*  ================  Responsive Break-Points Begin Here  =================  */
@@ -478,90 +483,171 @@ contact img {
 /*   ++++++++++ Tablet Size  +++++++++++++++++++  */
 @media (min-width: 768px) and (max-width: 1199px) {
       body {
-                padding: 2em;
+            padding: 2em;
       }
+
       header .wrapper {
             display: flex;
             flex-flow: row nowrap;
       }
-      reviews img {
-                padding-right: 4em;
-      }
-      contact img {
-            width: auto;
-            height: auto;
+
+      .about-top {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
             align-items: center;
+            flex-flow: row nowrap;
       }
+
+      .contact {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+      }
+
+      .contact h2 {
+            text-align: center;
+      }
+
+      .contact h3 {
+            padding-right: 2em;
+      }
+
       .div-1, .div-2, .div-3 {
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: column nowrap;
+            flex-direction: column;
             height: 200px;
             width: 30%;
             margin: 0;
       }
-      .portfolio {
-                background: linear-gradient(#69afc6, #ffffff);
-                background-size: 100% 100%;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                flex-flow: column wrap;
-                padding-top: 20px;
-                padding-bottom: 40px;
-                width: 100%;
-                height: auto;
-      }
-      #contact {
-                display: flex;
-                justify-content: flex-end;
-                align-items: flex-start;
-                flex-flow: row wrap;
-                padding-left: 16px;
+
+      .fancy-container {
+            margin: 40px;
       }
 
-      #portfolio {
+      .half {
             display: flex;
             justify-content: center;
-            align-items: center;
-            flex-flow: column nowrap;
-            width: 100%;
-            }
+            align-items: flex-start;
+            flex-flow: row nowrap;
+            width: 65%;
+      }
 
-      .portfolio-pic {
-            width: 325px;
+      .portfolio {
+            background: linear-gradient(#69afc6, #ffffff);
+            background-size: 100% 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-flow: column wrap;
+            padding-top: 20px;
+            padding-bottom: 40px;
+            width: 100%;
             height: auto;
+      }
+
+      .reviews img {
+            padding-right: 4em;
+      }
+
+      .samples {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-flow: row wrap;
+            width: 100%;
+      }
+
+      .samples img {
+            padding: 5px 0 5px 0;
+      }
+
+      .whole {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-flow: column;
+      }
+
+      #cloud {
+            padding-left: 20px;
+      }
+
+      #contact {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            flex-flow: row wrap;
+      }
+
+      #padding {
+            flex-direction: row;
+            padding-left: 40px;
+      }
+
+      #social {
+            /* added from mobile
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-flow: row nowrap;
+                  padding-left: 40px;
+                  padding-right: 40px;
+                  width: 80%;
+                  height: auto;
+            */
+
+            padding-left: 40px;
+            padding-right: 20px;
+            flex-flow: column wrap;
+            width: 100%;
       }
 }
 
 /*  +++++++++++  Desk-Top Size  ++++++++++++++++  */
 @media (min-width: 1200px) {
       body {
-                padding: 2em;
+            padding: 2em;
       }
-      .wrapper {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                flex-flow: row wrap;
-                font-weight: 700;
+
+      header {
+            flex-flow: column;
       }
+
+      .about-top {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-flow: row nowrap;
+      }
+
+      .contact {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-flow: row nowrap;
+      }
+
+      .contact img {
+            width: 100%;
+            height: auto;
+      }
+
       .div-1, .div-2, .div-3 {
             flex-flow: column nowrap;
             height: 200px;
             width: 30%;
             margin: 0;
       }
-      .whole {
-                height: auto;
-                width: 100%;
-                display: flex;
-                margin-top: 16em;
-                justify-content: center;
-                align-items: flex-end;
-                flex-flow: row nowrap;
+
+      .fancy-container {
+            margin: 40px;
       }
+
       .half {
             height: auto;
             width: 45%;
@@ -570,89 +656,110 @@ contact img {
             align-items: center;
             flex-flow: row wrap;
       }
-      .contact {
-                display: flex;
-                justify-content: center;
-                align-items: flex-start;
-                flex-flow: row nowrap;
+
+      .reviews {
+            background: linear-gradient(#ffffff, #69afc6);
+            background-size: 100% 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-flow: column;
       }
 
-      subheader {
+      .reviews img {
+            padding-right: 4em;
+      }
+
+      .review-one {
+            width: 90%;
+            height: auto;
+            padding: 1.6em;
+            margin-left: .99em;
+            margin-right: .99em;
+      }
+
+      .reviews-two {
+            padding: 1.6em;
+            width: 40%;
+            height: auto;
+            height: 22em;
+            margin-left: .98em;
+            margin-right: .98em;
+      }
+
+      .samples {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-flow: row nowrap;
+            width: 100%;
+      }
+
+      .subheader {
             height: 754px;
             width: 100%;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: flex-end;
             flex-flow: column nowrap;
             padding: 0;
 
       }
-      reviews {
-                background: linear-gradient(#ffffff, #69afc6);
-                background-size: 100% 100%;
-                display: flex;
-                justify-content: flex-start;
-                align-items: flex-start;
-                flex-flow: column;
+
+      .whole {
+            height: auto;
+            width: 100%;
+            display: flex;
+            margin-top: 5px;
+            padding: 0 0 20px 0;
+            justify-content: center;
+            align-items: flex-end;
+            flex-flow: row nowrap;
       }
-      reviews img {
-                padding-right: 4em;
+
+      .wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-flow: row wrap;
+            font-weight: 700;
       }
-      #reviews {
-                padding: 1.6em;
-                width: 40%;
-                height: auto;
-                height: 22em;
-                margin-left: .98em;
-                margin-right: .98em;
-      }
-      #review-single {
-                width: 90%;
-                height: auto;
-                padding: 3em;
-                margin-left: .99em;
-                margin-right: .99em;
-      }
-      #launch {
-                padding-top: 3.5em;
-                padding-right: 600px;
-                display: flex;
-                justify-content: flex-end;
-                align-items: flex-start;
-                flex-flow: column wrap;
-      }
-      #padding {
-            flex-direction: row;
-      }
-      #about {
-                width: 100%;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-                flex-flow: row nowrap;
-      }
+      /*  full screen id tags  */
+
       #contact {
-                display: flex;
-                justify-content: flex-end;
-                align-items: flex-start;
-                flex-flow: column nowrap;
-                padding-right: 2em;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            flex-flow: column nowrap;
+            padding-right: 2em;
       }
-      contact img {
+
+      #launch, #launch-text {
+            padding: 80px 100px 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-flow: column wrap;
             width: 100%;
             height: auto;
       }
-      #social {
-            display: flex;
-            flex-direction: row nowrap;
+
+      #direction {
+            flex-direction: row;
       }
 
-      #portfolio {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-flow: row nowrap;
-                width: 100%;
+      #social {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: row nowrap;
+            height: auto;
+            width: 100%;
+            padding: 0;
+      }
+
+      #social h3 {
+            padding-left: 0; /* this keeps the icons and email address same line, address doesn't wrap */
       }
 
 }
