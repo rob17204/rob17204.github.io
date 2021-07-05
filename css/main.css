@@ -125,6 +125,7 @@ body {
 
 header {
       background: url('../img/fluffy-clouds.jpg') no-repeat;
+      background-size: cover;
       height: auto;
       width: 100%;
       display: flex;
@@ -251,12 +252,11 @@ span {
       font-size: .8em;
       background-color: rgba(107, 132, 193, 0.8);
       border-radius: 30px;
-      height: auto;
-      width: 95%;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
+      padding: 10px;
       margin: 25px;
 }
 
@@ -417,11 +417,6 @@ span {
       align-items: center;
       flex-flow: column wrap;
       font-weight: 700;
-}
-
-header .wrapper {
-      display: flex;
-      justify-content: center;
 }
 
 
