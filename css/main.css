@@ -441,7 +441,7 @@ span {
 
 #launch, #launch-text {
       padding-top: 1.0em;
-      padding-left: 20px;
+      padding-left: 8px;
       display: flex;
       justify-content: flex-start;
       align-items: flex-start;
