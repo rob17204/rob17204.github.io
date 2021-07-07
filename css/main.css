@@ -124,7 +124,7 @@ body {
 }
 
 header {
-      background: url('../img/fluffy-clouds.jpg') no-repeat;
+      background-image: url('../img/fluffy-clouds.jpg') no-repeat;
       background-size: cover;
       height: auto;
       width: 100%;
@@ -390,7 +390,7 @@ span {
 }
 
 .subheader {
-      background: url('../img/rocket-mid.jpg') no-repeat;
+      background-image: url('../img/rocket-mid.jpg') no-repeat;
       background-size: cover;
       height: auto;
       width: 100%;
