@@ -124,7 +124,7 @@ body {
 }
 
 header {
-      background-image: url('../img/fluffy-clouds.jpg');
+      background-image: url('../img/fluffy-clouds.jpg') #fff;
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
